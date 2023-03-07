@@ -1,0 +1,43 @@
+ [{
+    "id":"1",
+    "img":"https://images.unsplash.com/photo-1595928607828-6fdaee9c0942?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    "locaton":"Delhi",
+    "time" : "3 hours"
+},
+{
+    "id":"2",
+    "img":"https://images.unsplash.com/photo-1567157577867-05ccb1388e66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    "locaton":"Mumbai",
+    "time" : "24 hours"
+},
+{
+    "id":"3",
+    "img":"https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    "locaton":"Jaipur",
+    "time" : "6 hours"
+},{
+    "id":"4",
+    "img":"https://images.unsplash.com/photo-1569096610945-1a094be04c74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1130&q=80",
+    "locaton":"Jodhpur",
+    "time" : "11 hours"
+},{
+    "id":"5",
+    "img":"https://images.unsplash.com/photo-1589901164570-f9de6556e1c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+    "locaton":"Udaipur",
+    "time" : "15 hours"
+},{
+    "id":"6",
+    "img":"https://images.unsplash.com/photo-1589813561871-97a98b76db4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+    "locaton":"Ahmedabad",
+    "time" : "20 hours"
+},{
+    "id":"7",
+    "img":"https://images.unsplash.com/photo-1556438549-168b3e11c0a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "locaton":"Shimla",
+    "time" : "14 hours"
+},{
+    "id":"8",
+    "img":"https://images.unsplash.com/photo-1584245231978-2bdb9ba04fcc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "locaton":"Ajmer",
+    "time" : "9 hours"
+}]
