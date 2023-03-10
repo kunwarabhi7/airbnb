@@ -3,6 +3,8 @@ import Header from '../components/Header'
 import Banner from '../components/Banner'
 import Data from '../Data.json'
 import SmallCard from '../components/SmallCard'
+import Data2 from '../Data2.json'
+import MdCircle from '../components/MdCircle'
 const Home= () => {
   console.log(Data)
   return (
@@ -24,6 +26,15 @@ const Home= () => {
          
         ) )}</div>
       </section>
+      <section className='pt-6'>
+        <h1 className='text-4xl font-semibold pb-5'>Live Anywhere</h1>
+        <div className='grid grid-cols-1 md:grid-cols-2'>
+
+        {Data2.map(({img , title ,id})=>{
+          return <MdCircle img={img} title={title} key={id}  />
+        })}
+        </div>
+      </section >
      </main>
 
     </>

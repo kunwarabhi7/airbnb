@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className=' sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10'>
       {/* Left */}
-      <div className='h-10  relative cursor-pointer'>
+      <div className='h-8  relative cursor-pointer'>
         <Image src='https://assets.stickpng.com/images/580b57fcd9996e24bc43c513.png' fill objectFit='contain' objectPosition='left' />
       </div>
       {/* Middle */}
