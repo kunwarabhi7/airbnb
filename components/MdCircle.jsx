@@ -7,7 +7,7 @@ const MdCircle = ({img , title ,id}) => {
           <div className="relative md:h-80 d:w-96 w-64 h-64 ">
             <Image
               src={img}
-              fill
+              fill className='rounded-xl'
             />
           </div>
           <div className="md:w-1/2">

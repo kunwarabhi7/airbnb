@@ -28,7 +28,7 @@ const Home= () => {
       </section>
       <section className='pt-6'>
         <h1 className='text-4xl font-semibold pb-5'>Live Anywhere</h1>
-        <div className='grid grid-cols-1 md:grid-cols-2'>
+        <div className='flex gap-x-6 scrollbar-hide overflow-y-hidden'>
 
         {Data2.map(({img , title ,id})=>{
           return <MdCircle img={img} title={title} key={id}  />
