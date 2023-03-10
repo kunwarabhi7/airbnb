@@ -29,7 +29,7 @@ const Header = () => {
   }
 
   return (
-    <header className=" sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
+    <header className=" sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10 w-full">
       {/* Left */}
       <div className="h-8  relative cursor-pointer">
         <Image
@@ -55,7 +55,7 @@ const Header = () => {
       {/* right */}
       <div className="flex items-center justify-end md:space-x-4 space-x-2 text-gray-500">
         <div>
-          <p className="hidden md:inline">Airbnd your home</p>
+          <p className="hidden md:inline">Airbnb your home</p>
         </div>
         <div>
           <FiGlobe />
