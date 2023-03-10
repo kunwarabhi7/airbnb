@@ -7,17 +7,33 @@ import { useState } from "react";
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
 import { DateRangePicker } from "react-date-range";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Header = () => {
   const [input, setInput] = useState("");
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
   const [numberOfGuest, setNumberOfGuest] = useState("1");
+const router =  useRouter()
   const selectionRange = {
     startDate,
     endDate,
     key: "selection",
   };
+
+  const searchResult = () => {
+    router.push({
+      pathname:'/search',
+      query: {
+
+        location: input,
+        startDate : startDate.toISOString(),
+        endDate: endDate.toISOString(),
+        numberOfGuest
+      }
+    })
+  }
 
   const handleDate = (ranges) => {
     setStartDate(ranges.selection.startDate);
@@ -32,12 +48,14 @@ const Header = () => {
     <header className=" sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10 w-full">
       {/* Left */}
       <div className="h-8  relative cursor-pointer">
+        <Link href='/'>
         <Image
           src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c513.png"
           fill
           objectFit="contain"
           objectPosition="left"
-        />
+          />
+          </Link>
       </div>
       {/* Middle */}
       <div className="flex items-center md:border-2 rounded-full p-1 border-gray-400 md:shadow-sm">
@@ -88,7 +106,7 @@ const Header = () => {
           </div>
           <div className="flex">
             <button onClick={resetInput} className="flex-grow text-gray-500">Cancel</button>
-            <button className="flex-grow text-red-400">Submit</button>
+            <button onClick={searchResult} className="flex-grow text-red-400">Search</button>
           </div>
         </div>
       )}
