@@ -13,12 +13,12 @@ const Search = () => {
         <h1 className='text-2xl font-semibold'>Stays in Bhiwani</h1>
         <div className='flex flex-col space-y-2 md:flex-row md:space-x-6 mx-auto'>
 
-        <button className='rounded-full py-2 px-4 border-2 transition hover:translate-y-1 ease-in-out duration-300 '>Cancellation Flexiblity</button>
-        <button className='rounded-full py-2 px-4 border-2 transition hover:translate-y-1 ease-in-out duration-300 '>Types of place</button>
-        <button className='rounded-full py-2 px-4 border-2 transition hover:translate-y-1 ease-in-out duration-300 '>Price</button>
-        <button className='rounded-full py-2 px-4 border-2 transition hover:translate-y-1 ease-in-out duration-300 '>Rooms and Beds</button>
-        <button className='rounded-full py-2 px-4 border-2 transition hover:translate-y-1 ease-in-out duration-300 '>More fliters</button>
-        </div>
+        <button className='button '>Cancellation Flexiblity</button>
+        <button className='button '>Types of place</button>
+        <button className='button'>Price</button>
+        <button className='button'>Rooms and Beds</button>
+        <button className=' button'>More fliters</button>
+        </div >
     </section>
 </main>
 <Footer />
