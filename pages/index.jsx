@@ -5,6 +5,8 @@ import Data from '../Data.json'
 import SmallCard from '../components/SmallCard'
 import Data2 from '../Data2.json'
 import MdCircle from '../components/MdCircle'
+import LargeCard from '../components/LargeCard'
+import Footer from '../components/Footer'
 const Home= () => {
   console.log(Data)
   return (
@@ -28,15 +30,16 @@ const Home= () => {
       </section>
       <section className='pt-6'>
         <h1 className='text-4xl font-semibold pb-5'>Live Anywhere</h1>
-        <div className='flex gap-x-6 scrollbar-hide overflow-y-hidden'>
+        <div className='flex gap-x-6 scrollbar-hide overflow-y-hidden p-4'>
 
         {Data2.map(({img , title ,id})=>{
           return <MdCircle img={img} title={title} key={id}  />
         })}
         </div>
       </section >
+      <LargeCard />
      </main>
-
+<Footer />
     </>
   )
 }
