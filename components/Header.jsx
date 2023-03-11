@@ -10,7 +10,7 @@ import { DateRangePicker } from "react-date-range";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const Header = () => {
+const Header = ({placeholder}) => {
   const [input, setInput] = useState("");
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
@@ -62,7 +62,7 @@ const router =  useRouter()
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="start your search .."
+          placeholder= {placeholder || " start your search .."}
           className="flex-grow text-xs md:text-sm outline-none bg-transparent ml-3 placeholder:text-gray-400 text-gray-600"
         />
         <BiSearchAlt2

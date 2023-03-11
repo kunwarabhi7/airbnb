@@ -1,0 +1,71 @@
+[{
+    "desc":"Beautiful ",
+    "locaton":"Bhiwani",
+    "img":"https://images.unsplash.com/photo-1605469237567-a39930679526?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "lat":"32.715736",
+    "long":"-117.161087",
+    "price":"120",
+    "star":"5",
+    "title":"Hansi Gate",
+    "total":"210"
+},{
+    "desc":"beachfront resort ",
+    "locaton":"Delhi",
+    "img":"https://images.unsplash.com/photo-1574929751963-9c6181261276?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=648&q=80",
+    "lat":"51.507351",
+    "long":"-0.127758",
+    "price":"320",
+    "star":"4.2",
+    "title":"The Grand Hotel",
+    "total":"380"
+},{
+    "desc":"Luxurious mountain retreat ",
+    "locaton":"Jaipur",
+    "img":"https://images.unsplash.com/photo-1589829973523-e4ddcbbd40e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1335&q=80",
+    "lat":"40.712776",
+    "long":"-74.005974",
+    "price":"120",
+    "star":"3.2",
+    "title":"The Plaza",
+    "total":"123"
+},{
+    "desc":"Charming historic inn ",
+    "locaton":"Mumbai",
+    "img":"https://images.unsplash.com/photo-1623495349319-e2e1c06efced?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    "lat":"-33.868820",
+    "long":"151.209296 ",
+    "price":"200",
+    "star":"2.1",
+    "title":"The Ritz-Carlton",
+    "total":"230"
+},{
+    "desc":"Modern city hotel ",
+    "locaton":"Pune",
+    "img":"https://images.unsplash.com/photo-1597206770794-7c989077e738?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "lat":"48.856613",
+    "long":"2.352222 ",
+    "price":"210",
+    "star":"1.2",
+    "title":"The Four Seasons",
+    "total":"300"
+},{
+    "desc":"Modern city hotel ",
+    "locaton":"Kolkata",
+    "img":"https://images.unsplash.com/photo-1588532193802-ccfab9965013?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    "lat":"22.319303",
+    "long":"114.169361 ",
+    "price":"400",
+    "star":"0.4",
+    "title":"The Waldorf Astoria",
+    "total":"450"
+},{
+    "desc":"Modern Beautiful hotel ",
+    "locaton":"Udaipur",
+    "img":"https://images.unsplash.com/photo-1623529467457-11e110919d85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    "lat":"-22.906847",
+    "long":"-43.172897",
+    "price":"420",
+    "star":"3.0",
+    "title":"City Place",
+    "total":"500"
+}]
