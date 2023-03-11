@@ -33,8 +33,8 @@ const Search = () => {
           </div>
           <div className="flex flex-col ">
 
-        {Data3.map(({desc, location, img, price, star, title, total})=>(
-          <Card key={title}  location={location} desc={desc} img={img}  price={price} star={star} title={title} total={total}/>
+        {Data3.map(({desc, locaton, img, price, star, title, total})=>(
+          <Card key={title}  locaton={locaton} desc={desc} img={img}  price={price} star={star} title={title} total={total}/>
           ))}
           </div>
         </section>
